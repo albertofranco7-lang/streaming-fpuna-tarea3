@@ -1,0 +1,13 @@
+services:
+  notebook:
+    build: .
+    ports:
+      - "2718:2718"
+    volumes:
+      - ./notebook.py:/app/notebook.py
+
+  tests:
+    build: .
+    command: ["uv", "run", "pytest", "-v"]
+    volumes:
+      - ./notebook.py:/app/notebook.py
