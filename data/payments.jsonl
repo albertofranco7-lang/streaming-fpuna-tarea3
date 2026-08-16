@@ -1,0 +1,9 @@
+{"event_id":"p-001","merchant_id":"m-azul","event_time":"2026-07-24T13:00:05Z","arrival_time":"2026-07-24T13:00:06Z","amount":120000,"status":"CONFIRMED"}
+{"event_id":"p-002","merchant_id":"m-verde","event_time":"2026-07-24T13:00:18Z","arrival_time":"2026-07-24T13:00:20Z","amount":80000,"status":"CONFIRMED"}
+{"event_id":"p-003","merchant_id":"m-azul","event_time":"2026-07-24T13:01:12Z","arrival_time":"2026-07-24T13:01:14Z","amount":55000,"status":"PENDING"}
+{"event_id":"p-004","merchant_id":"m-azul","event_time":"2026-07-24T13:00:42Z","arrival_time":"2026-07-24T13:01:35Z","amount":50000,"status":"CONFIRMED"}
+{"event_id":"p-002","merchant_id":"m-verde","event_time":"2026-07-24T13:00:18Z","arrival_time":"2026-07-24T13:01:41Z","amount":80000,"status":"CONFIRMED"}
+{"event_id":"p-005","merchant_id":"m-verde","event_time":"2026-07-24T13:01:44Z","arrival_time":"2026-07-24T13:01:46Z","amount":90000,"status":"CONFIRMED"}
+{"event_id":"p-006","merchant_id":"m-azul","event_time":"2026-07-24T13:02:02Z","arrival_time":"2026-07-24T13:02:03Z","amount":200000,"status":"CONFIRMED"}
+{"event_id":"p-007","merchant_id":"m-verde","event_time":"2026-07-24T13:00:51Z","arrival_time":"2026-07-24T13:03:40Z","amount":30000,"status":"CONFIRMED"}
+{"event_id":"p-008","merchant_id":"m-azul","event_time":"2026-07-24T13:02:27Z","arrival_time":"2026-07-24T13:02:30Z","amount":75000,"status":"REJECTED"}

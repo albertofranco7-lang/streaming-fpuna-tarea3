@@ -1,0 +1,32 @@
+[project]
+name = "clase6-beam-avanzado-tarea"
+version = "0.1.0"
+description = "Tarea 3 — Estado, duplicados e idempotencia con Apache Beam"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "apache-beam==2.74.0",
+  "betterproto==2.0.0b6",
+  "marimo>=0.19,<1",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3,<9",
+  "ruff>=0.9,<1",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"notebook.py" = [
+  "B008",
+]
