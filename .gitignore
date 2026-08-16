@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Outputs generados (se regeneran con el pipeline)
+output/result_*.json
+output/test_events.jsonl
+output/kafka_events.jsonl
+output/pipeline_run.log
+output/pipeline_kafka_run.log
+output/producer_run.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
